@@ -24,7 +24,7 @@ class Logfile:
             ips = dict(listA[0:10])
         return ips
 
-    # 统计日志中200、304、404、502、503、504状态码出现的次数
+    # 统计日志中200、302、303、304、400、404、499、502、503、504状态码出现的次数
     def getStatusCode(self):
         statusCode = {}
         with open(self.path, 'r', encoding='utf8') as file:
@@ -49,4 +49,5 @@ class Logfile:
             natural = dict(listB[0:10])
         return natural
 
+# 实例化
 getData = Logfile('./log_file/access_log')
