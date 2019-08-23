@@ -14,7 +14,8 @@ client = pymysql.connect(
 # 建立数据库游标
 cursors = client.cursor()
 
-# 执行sql操作(将文件grade.txt中的数据写入数据库)
+# 执行sql操作
+# ---------------------1. 将文件grade.txt中的数据写入数据库------------------------------
 n = 1
 with open(file='./grade_file/grade.txt', mode='r', encoding='utf8') as file:
     for lines in file:
@@ -26,5 +27,13 @@ with open(file='./grade_file/grade.txt', mode='r', encoding='utf8') as file:
 # 提交sql操作
 client.commit()
 
-# 关闭数据库连接
+# ----------------------2. 读取数据库数据进行处理-----------------------------------
+sql = 'select * from {};'
+cursors.execute(sql.format('FirstStage'))
+
+# 读取的数据存放在游标的fetchall中，需要用变量去接收
+result = cursors.fetchall()
+
+
+# 最后都要关闭数据库连接
 client.close()
