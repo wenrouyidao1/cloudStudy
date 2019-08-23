@@ -2,10 +2,18 @@
   <dictionary name="Administrator">
     <words>
       <w>ansible</w>
+      <w>asctime</w>
+      <w>datefmt</w>
+      <w>dingtalk</w>
+      <w>levelname</w>
       <w>linsert</w>
       <w>lrem</w>
+      <w>mymaster</w>
       <w>nginx</w>
+      <w>pythonbasic</w>
+      <w>qualname</w>
       <w>refvalue</w>
+      <w>stinel</w>
       <w>xlsx</w>
     </words>
   </dictionary>

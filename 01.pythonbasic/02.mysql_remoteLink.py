@@ -33,7 +33,7 @@ cursors.execute(sql.format('FirstStage'))
 
 # 读取的数据存放在游标的fetchall中，需要用变量去接收
 result = cursors.fetchall()
-
+print(result)
 
 # 最后都要关闭数据库连接
 client.close()
