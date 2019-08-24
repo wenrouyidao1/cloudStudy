@@ -35,5 +35,7 @@ cursors.execute(sql.format('FirstStage'))
 result = cursors.fetchall()
 print(result)
 
+
+
 # 最后都要关闭数据库连接
 client.close()

@@ -5,15 +5,23 @@
       <w>asctime</w>
       <w>datefmt</w>
       <w>dingtalk</w>
+      <w>fack</w>
+      <w>faild</w>
+      <w>haodongxi</w>
+      <w>iowait</w>
+      <w>kbit</w>
       <w>levelname</w>
       <w>linsert</w>
       <w>lrem</w>
       <w>mymaster</w>
       <w>nginx</w>
+      <w>passwd</w>
+      <w>psutil</w>
       <w>pythonbasic</w>
       <w>qualname</w>
       <w>refvalue</w>
       <w>stinel</w>
+      <w>warpper</w>
       <w>xlsx</w>
     </words>
   </dictionary>

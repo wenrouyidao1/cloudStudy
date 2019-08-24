@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8736dc9f-e35b-47dc-a422-f4e2faa64161" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01.pythonbasic/06.redis_clear_cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.pythonbasic/07.from_mysql_to_xlsx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.pythonbasic/02.pymysql_mysql_opera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.pythonbasic/09.random_code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.pythonbasic/10.psutil_system_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.pythonbasic/11.paramiko_opera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.pythonbasic/02.mysql_remoteLink.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py">
+        <entry file="file://$PROJECT_DIR$/01.pythonbasic/11.paramiko_opera.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+            <state relative-caret-position="361">
+              <caret line="91" column="62" lean-forward="true" selection-start-line="91" selection-start-column="62" selection-end-line="91" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -52,6 +56,10 @@
         <option value="$PROJECT_DIR$/01.pythonbasic/06.redis_clear_cache.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/07.from_mysql_to_xlsx.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py" />
+        <option value="$PROJECT_DIR$/09.random_code.py" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/10.psutil_system_info.py" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/02.pymysql_mysql_opera.py" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/11.paramiko_opera.py" />
       </list>
     </option>
   </component>
@@ -69,6 +77,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,30 +90,17 @@
               <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
               <item name="01.pythonbasic" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="01.pythonbasic" type="462c0819:PsiDirectoryNode" />
-              <item name="cnf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="01.pythonbasic" type="462c0819:PsiDirectoryNode" />
-              <item name="log_file" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01.pythonbasic/cnf" />
+    <property name="last_opened_file_path" value="E:/Pycharm/code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -116,6 +112,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git\own\cloudStudy\01.pythonbasic" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Git\own\cloudStudy\01.pythonbasic\cnf" />
       <recent name="E:\Git\own\cloudStudy\01.pythonbasic\grade_file" />
@@ -220,23 +219,23 @@
       <option name="presentableId" value="Default" />
       <updated>1566534368997</updated>
       <workItem from="1566534370313" duration="3996000" />
-      <workItem from="1566553823320" duration="7713000" />
+      <workItem from="1566553823320" duration="7999000" />
+      <workItem from="1566606950449" duration="3951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11709000" />
+    <option name="totallyTimeSpent" value="15946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15805471" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16033435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.051666666" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.66333336" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -245,7 +244,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.51166666" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.46166667" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -318,13 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/02.mysql_remoteLink.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/07.from_mysql_to_xlsx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -335,13 +327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/cnf/logging.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/log_file/example.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -349,10 +334,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/cnf/logging.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="93" column="31" selection-start-line="93" selection-start-column="31" selection-end-line="93" selection-end-column="31" />
+        <state relative-caret-position="-859">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/09.random_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/10.psutil_system_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="69" column="55" lean-forward="true" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/02.mysql_remoteLink.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="27" column="15" lean-forward="true" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/02.pymysql_mysql_opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/11.paramiko_opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="91" column="62" lean-forward="true" selection-start-line="91" selection-start-column="62" selection-end-line="91" selection-end-column="62" />
         </state>
       </provider>
     </entry>
