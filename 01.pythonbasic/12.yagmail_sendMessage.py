@@ -3,7 +3,7 @@ import yagmail
 
 # 建立客户端
 client = yagmail.SMTP(
-    user='2914283700@qq.com',           # 用户（邮箱地址）
+    user='2914283700@qq.com',           # 用户（发件人邮箱地址）
     password='wxuitofvcejydebj',        # 授权码
     host='smtp.qq.com',                 # 固定格式（smtp.邮箱）
 )
