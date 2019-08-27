@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8736dc9f-e35b-47dc-a422-f4e2faa64161" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/01.pythonbasic/13.requests_get_post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,10 +15,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01.pythonbasic/01.getCount_ip.py">
+        <entry file="file://$PROJECT_DIR$/01.pythonbasic/13.requests_get_post.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state relative-caret-position="327">
+              <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+              <folding>
+                <element signature="e#1#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,10 +60,11 @@
         <option value="$PROJECT_DIR$/01.pythonbasic/09.random_code.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/03.redis_opera.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/12.yagmail_sendMessage.py" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/13.requests_get_post.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="17" />
     <option name="y" value="36" />
     <option name="width" value="1145" />
@@ -95,7 +101,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/Pycharm/code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -220,16 +226,15 @@
       <workItem from="1566606950449" duration="11363000" />
       <workItem from="1566792066816" duration="153000" />
       <workItem from="1566820145012" duration="13000" />
-      <workItem from="1566887389730" duration="910000" />
+      <workItem from="1566887389730" duration="2988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24434000" />
+    <option name="totallyTimeSpent" value="26512000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19452888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -245,7 +250,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.38333333" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.62833333" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -274,13 +279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/log_file/example.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -361,13 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/12.yagmail_sendMessage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/02.pymysql_mysql_opera.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -379,6 +370,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7">
           <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/log_file/example.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/12.yagmail_sendMessage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/13.requests_get_post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+          <folding>
+            <element signature="e#1#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

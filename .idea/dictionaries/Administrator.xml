@@ -3,6 +3,7 @@
     <words>
       <w>ansible</w>
       <w>asctime</w>
+      <w>baidu</w>
       <w>datefmt</w>
       <w>dingtalk</w>
       <w>fack</w>
@@ -13,17 +14,20 @@
       <w>levelname</w>
       <w>linsert</w>
       <w>lrem</w>
+      <w>msgtype</w>
       <w>mymaster</w>
       <w>nginx</w>
       <w>passwd</w>
       <w>psutil</w>
       <w>pythonbasic</w>
+      <w>qfedu</w>
       <w>qualname</w>
       <w>refvalue</w>
       <w>stinel</w>
       <w>warpper</w>
       <w>wxuitofvcejydebj</w>
       <w>xlsx</w>
+      <w>xxxx</w>
     </words>
   </dictionary>
 </component>
