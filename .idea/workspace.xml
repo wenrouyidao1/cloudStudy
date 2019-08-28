@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8736dc9f-e35b-47dc-a422-f4e2faa64161" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01.pythonbasic/13.requests_get_post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/lib/cnf/logging.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/lib/getLog/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/lib/getLog/cron_shellScripts.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/lib/getLog/get_infor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/lib/getLog/shell_getMessage.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/lib/logAnalysis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/lib/logAnalysis/deal_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,14 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01.pythonbasic/13.requests_get_post.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+            <state relative-caret-position="-99">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#1#16#0" expanded="true" />
+                <element signature="e#1#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/lib/cnf/logging.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -49,7 +66,6 @@
         <option value="$PROJECT_DIR$/01.pythonbasic/cnf/logging.conf" />
         <option value="$PROJECT_DIR$/01.pythonbasic/02.mysql_remoteLink.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/07.from_mysql_to_xlsx.py" />
-        <option value="$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py" />
         <option value="$PROJECT_DIR$/09.random_code.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/10.psutil_system_info.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/11.paramiko_opera.py" />
@@ -61,6 +77,23 @@
         <option value="$PROJECT_DIR$/01.pythonbasic/03.redis_opera.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/12.yagmail_sendMessage.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/13.requests_get_post.py" />
+        <option value="$PROJECT_DIR$/project/test.py" />
+        <option value="$PROJECT_DIR$/project/lib/__init__.py" />
+        <option value="$PROJECT_DIR$/project/lib/getLog/getLogfile.py" />
+        <option value="$PROJECT_DIR$/project/lib/getLog/execute_shellScripts.py" />
+        <option value="$PROJECT_DIR$/project/lib/logAnalysis/systemInfo.log" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py" />
+        <option value="$PROJECT_DIR$/project/lib/getLog/shell_scripts.py" />
+        <option value="$PROJECT_DIR$/project/lib/getLog/shell_getMessage.sh" />
+        <option value="$PROJECT_DIR$/project/lib/getLog/cron_shellScripts.py" />
+        <option value="$PROJECT_DIR$/gets/deployenv.sh" />
+        <option value="$PROJECT_DIR$/project/lib/getLog/update_cron.py" />
+        <option value="$PROJECT_DIR$/project/lib/getLog/cron_shellScripts.sh" />
+        <option value="$PROJECT_DIR$/project/lib/getLog/get_infor.py" />
+        <option value="$PROJECT_DIR$/project/lib/logAnalysis/record_log.py" />
+        <option value="$PROJECT_DIR$/project/lib/logAnalysis/deal_log.py" />
+        <option value="$PROJECT_DIR$/project/main.py" />
+        <option value="$PROJECT_DIR$/project/lib/cnf/logging.conf" />
       </list>
     </option>
   </component>
@@ -89,7 +122,20 @@
             <path>
               <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="01.pythonbasic" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="cnf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -101,7 +147,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="E:/Pycharm/code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project/lib/cnf" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -119,9 +165,11 @@
       <recent name="E:\Git\own\cloudStudy\01.pythonbasic" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\own\cloudStudy\project\lib\cnf" />
+      <recent name="E:\Git\own\cloudStudy" />
+      <recent name="E:\Git\own\cloudStudy\project\lib\logAnalysis" />
       <recent name="E:\Git\own\cloudStudy\01.pythonbasic\cnf" />
       <recent name="E:\Git\own\cloudStudy\01.pythonbasic\grade_file" />
-      <recent name="E:\Git\own\cloudStudy\01.pythonbasic\log_file" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -136,8 +184,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.08.logging_opera">
-    <configuration name="01.getCount_ip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.deal_log">
+    <configuration name="deal_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cloudStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,12 +193,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01.pythonbasic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/lib/logAnalysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01.pythonbasic/01.getCount_ip.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/lib/logAnalysis/deal_log.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05.redis_sentinel_monitor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_infor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cloudStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,12 +215,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01.pythonbasic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/lib/getLog" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01.pythonbasic/05.redis_sentinel_monitor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/lib/getLog/get_infor.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +229,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="08.logging_opera" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cloudStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,12 +237,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01.pythonbasic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="record_log" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cloudStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/lib/logAnalysis" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/lib/logAnalysis/record_log.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="update_cron" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cloudStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/lib/getLog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/lib/getLog/update_cron.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,9 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.08.logging_opera" />
-        <item itemvalue="Python.05.redis_sentinel_monitor" />
-        <item itemvalue="Python.01.getCount_ip" />
+        <item itemvalue="Python.deal_log" />
+        <item itemvalue="Python.get_infor" />
+        <item itemvalue="Python.update_cron" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.record_log" />
       </list>
     </recent_temporary>
   </component>
@@ -226,22 +320,25 @@
       <workItem from="1566606950449" duration="11363000" />
       <workItem from="1566792066816" duration="153000" />
       <workItem from="1566820145012" duration="13000" />
-      <workItem from="1566887389730" duration="2988000" />
+      <workItem from="1566887389730" duration="3936000" />
+      <workItem from="1566953071019" duration="5592000" />
+      <workItem from="1566970673173" duration="24140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26512000" />
+    <option name="totallyTimeSpent" value="57192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19452888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19148937" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.66333336" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27166668" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -250,7 +347,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.62833333" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.445" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -264,88 +361,26 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cloudStudy$main.coverage" NAME="main Coverage Results" MODIFIED="1566977246993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
     <SUITE FILE_PATH="coverage/cloudStudy$05_redis_sentinel_monitor.coverage" NAME="05.redis_sentinel_monitor Coverage Results" MODIFIED="1566560002161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.pythonbasic" />
     <SUITE FILE_PATH="coverage/cloudStudy$08_logging_opera.coverage" NAME="08.logging_opera Coverage Results" MODIFIED="1566566038523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.pythonbasic" />
     <SUITE FILE_PATH="coverage/cloudStudy$01_getCount_ip.coverage" NAME="01.getCount_ip Coverage Results" MODIFIED="1566541786017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.pythonbasic" />
+    <SUITE FILE_PATH="coverage/cloudStudy$test.coverage" NAME="test Coverage Results" MODIFIED="1566955017741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/cloudStudy$getLogfile.coverage" NAME="getLogfile Coverage Results" MODIFIED="1566958847131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/lib/getLog" />
+    <SUITE FILE_PATH="coverage/cloudStudy$get_infor.coverage" NAME="get_infor Coverage Results" MODIFIED="1566991366671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/lib/getLog" />
+    <SUITE FILE_PATH="coverage/cloudStudy$deal_log.coverage" NAME="deal_log Coverage Results" MODIFIED="1566998856696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/lib/logAnalysis" />
+    <SUITE FILE_PATH="coverage/cloudStudy$update_cron.coverage" NAME="update_cron Coverage Results" MODIFIED="1566990155653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/lib/getLog" />
+    <SUITE FILE_PATH="coverage/cloudStudy$record_log.coverage" NAME="record_log Coverage Results" MODIFIED="1566973419968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/lib/logAnalysis" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/log_file/access_log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/txt_file/grade.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/log_file/logfileName.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/cnf/logging.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/02.mysql_remoteLink.py" />
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/07.from_mysql_to_xlsx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-873">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/11.paramiko_opera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/09.random_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/10.psutil_system_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/04.excel_opera.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="321">
           <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/03.redis_opera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/05.redis_sentinel_monitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#1#27#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -359,17 +394,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/10.psutil_system_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/09.random_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/07.from_mysql_to_xlsx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/05.redis_sentinel_monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/02.pymysql_mysql_opera.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="460">
           <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/03.redis_opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/01.getCount_ip.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="-153">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -380,20 +453,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/12.yagmail_sendMessage.py">
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/cnf/logging.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="460">
+          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/log_file/logfileName.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/txt_file/grade.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/test.py" />
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/systemInfo.log" />
+    <entry file="file://$PROJECT_DIR$/project/lib/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/project/systemInfo.log" />
+    <entry file="file://$PROJECT_DIR$/project/lib/logAnalysis/sysInfo.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/11.paramiko_opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/log_file/after_log.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/logAnalysis/systemInfo.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/log_file/systemInfo.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="92" lean-forward="true" selection-start-column="81" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/execute_shellScripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/shell_scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/cron_shellScripts.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gets/deployenv.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/update_cron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" lean-forward="true" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/getLogfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/shell_getMessage.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gets/monitor.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gets/opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/cnf/logging.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/logAnalysis/record_log.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/13.requests_get_post.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="85" column="16" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+        <state relative-caret-position="428">
+          <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
           <folding>
             <element signature="e#1#16#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/12.yagmail_sendMessage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/monitor.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/filters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="93" column="23" lean-forward="true" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/logAnalysis/logfileName.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/cron_shellScripts.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/get_infor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/logAnalysis/deal_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1057">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+          <folding>
+            <element signature="e#1#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/cnf/logging.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>

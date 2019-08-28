@@ -7,7 +7,7 @@ import logging
 # 定义日志输出的位置/级别/格式/增加规则
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(pathname)s - %(message)s',
-  	datefmt='%Y-%m-%d %H:%M:%S',
+    datefmt='%Y-%m-%d %H:%M:%S',
     level=logging.WARNING,
     filename='./log_file/example.log',
     filemode='a'
