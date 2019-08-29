@@ -1,19 +1,19 @@
 
-from lib.getLog import get_info
+from lib.getLog import get_infor
 from lib.logAnalysis import deal_log
 
 
 # 1. 将计划任务脚本上传至服务器， 并执行
-get_info.updateCron('C:\\Users\Administrator\.ssh\id_rsa', '192.168.43.101', 'root',
-                    './lib/getLog/cron_shellScripts.sh')
+get_infor.updateCron('C:\\Users\Administrator\.ssh\id_rsa', '192.168.43.101', 'root',
+                     './lib/getLog/cron_shellScripts.sh')
 
 # 2. 将shell脚本上传至目标服务器，并执行，生成日志文件
-get_info.updateShell('C:\\Users\Administrator\.ssh\id_rsa', '192.168.43.101', 'root',
-                     './lib/getLog/shell_getMessage.sh')
+get_infor.updateShell('C:\\Users\Administrator\.ssh\id_rsa', '192.168.43.101', 'root',
+                      './lib/getLog/shell_getMessage.sh')
 
 # 3. 拉取远程服务器上的日志文件
-get_info.getLogfile('C:\\Users\Administrator\.ssh\id_rsa', '192.168.43.101',
-                    './lib/logFile/monitor.log')
+get_infor.getLogfile('C:\\Users\Administrator\.ssh\id_rsa', '192.168.43.101', 'root',
+                     './lib/logFile/monitor.log')
 
 # 4. 处理得到的日志文件，进行日志记录（报警信息）
 deal_log.dealLog('./lib/logFile/monitor.log')
@@ -28,3 +28,6 @@ deal_log.send_mail('./lib/logFile/monitor.log', '2914283700@qq.com', 'wxuitofvce
 # 6. 处理得到的日志文件，写入数据库
 deal_log.insert_database('./lib/logFile/monitor.log', '192.168.43.102', 'Harper',
                          '(Harper..0822)', 'systemInfo')
+
+print('go...on')
+

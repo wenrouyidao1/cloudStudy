@@ -1,0 +1,6 @@
+"20190829140330" - "Study04" - {"cpu": {"user": 1, "system": 1, "idle": 97}, "memory": {"total": 972, "free": 562, "useRate": 41.87242798353909465000}, "disk": {"useRate": 12}}
+"20190829140541" - "Study04" - {"cpu": {"user": 1, "system": 1, "idle": 97}, "memory": {"total": 972, "free": 562, "useRate": 41.87242798353909465000}, "disk": {"useRate": 12}}
+"20190829144941" - "Study04" - {"cpu": {"user": 0, "system": 1, "idle": 99}, "memory": {"total": 972, "free": 548, "useRate": 43.31275720164609053400}, "disk": {"useRate": 12}}
+"20190829145054" - "Study04" - {"cpu": {"user": 0, "system": 1, "idle": 99}, "memory": {"total": 972, "free": 548, "useRate": 43.31275720164609053400}, "disk": {"useRate": 12}}
+"20190829145628" - "Study04" - {"cpu": {"user": 0, "system": 1, "idle": 99}, "memory": {"total": 972, "free": 548, "useRate": 43.31275720164609053400}, "disk": {"useRate": 12}}
+"20190829145748" - "Study04" - {"cpu": {"user": 0, "system": 1, "idle": 99}, "memory": {"total": 972, "free": 548, "useRate": 43.31275720164609053400}, "disk": {"useRate": 12}}
