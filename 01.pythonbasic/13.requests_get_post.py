@@ -41,7 +41,7 @@ for web, port in website:
 import json
 import requests
 
-token = 'c8b6a3fc99a086e03bd05dffd9f979f665f300d5c2a9b458fa8f56298325281b'   # 机器人token值
+token = '29d923806d11a9f1836b51c8882e94cda74eded55ccd2aeac9ffa98523e14af0'   # 机器人token值
 api = 'https://oapi.dingtalk.com/robot/send?access_token={}'.format(token)   # api控制机器人行动
 
 header = {'Content-Type': 'application/json'}        # 报文头部
