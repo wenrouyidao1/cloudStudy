@@ -1,7 +1,6 @@
 
 import pymysql
 import paramiko
-from getLog import get_logFile
 
 
 # 对所收集的日志文件进行分析, 提取pv/uv量; 排名前10的IP地址; 状态码分布情况;
@@ -51,31 +50,59 @@ def hotNatural(path):
         natural = dict(listB[0:10])
     return natural
 
+# 获取远程主机主机名
+def get_hostname(rsa_path, ip, user, port=22):
+    private = paramiko.RSAKey.from_private_key_file(rsa_path)
+    transport = paramiko.Transport((ip, port))
+    transport.connect(username=user, pkey=private)
+    client = paramiko.SSHClient()
+    client._transport = transport
+
+    _, stdout, _ = client.exec_command('hostname')
+    Hostname = stdout.read().decode('utf-8')
+
+    transport.close()
+    return Hostname
+
 
 # 处理得到的日志，并记入到数据库
 def insert_database(host, user, password, db, rsa_path, log_path, hostname_ip, port=3306):
     client = pymysql.connect(host=host, port=port, user=user, password=password, db=db, charset='utf8')
     cursors = client.cursor()
 
-    Hostname = get_logFile.get_hostname(rsa_path, hostname_ip, 'root')
+    # 取数据库最后一位判断是否为空
+    sql = "select * from {};"
+    cursors.execute(sql.format('puv'))
+    result, listC = cursors.fetchall(), []
+    for i in result:
+        listC.append(i[0])
+
+    Hostname = get_hostname(rsa_path, hostname_ip, 'root')
 
     for element in ['puv', 'ips', 'code']:
+        if len(result) == 0:
+            n = 0
+        else:
+            n = listC[-1]
         if element == 'puv':
+            n += 1
             pv, uv = count_ip(log_path)
-            sql = "insert into element values('{}', {}, {});"
-            cursors.execute(sql.format(Hostname, pv, uv))
+            sql = "insert into {} values({}, '{}', {}, {});"
+            cursors.execute(sql.format(element, n, Hostname.rstrip('\n'), pv, uv))
         elif element == 'ips':
+            n += 1
             ips, listA = get_ip(log_path), []
             for ip in ips.keys():
                 listA.append(ip)
-            sql = "insert into element values('{}', '{}', '{}');"
-            cursors.execute(sql.format(Hostname, listA[0], listA[1]))
+            sql = "insert into {} values({}, '{}', '{}', '{}');"
+            cursors.execute(sql.format(element, n, Hostname.rstrip('\n'), listA[0], listA[1]))
         elif element == 'code':
+            n += 1
             codes, listB = getStatusCode(log_path), []
             for code in codes.values():
                 listB.append(code)
-            sql = "insert into element values('{}', {}, {});"
-            cursors.execute(sql.format(Hostname, listB[0], listB[1]))
+            sql = "insert into {} values({}, '{}', {}, {});"
+            cursors.execute(sql.format(element, n, Hostname.rstrip('\n'), listB[0], listB[1]))
 
 
     client.commit()
