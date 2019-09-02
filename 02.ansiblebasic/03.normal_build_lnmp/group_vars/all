@@ -1,0 +1,9 @@
+---
+nginx_port: 80
+nginx_name: www.qfcloud.com
+mysql_host: 192.168.43.102
+mysql_username: Harper
+mysql_password: (Harper..0905)
+mysql_database: project
+mysql_grant_host: 192.168.43.101
+mysql_grant_password: (Harper..0905)

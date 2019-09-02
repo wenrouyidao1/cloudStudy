@@ -1,0 +1,17 @@
+---
+- name: transfer php-fpm.repo to remote machine.
+  template:
+    src: php-fpm.repo
+    dest: /etc/yum.repos.d/php.repo
+
+- name: install software.
+  yum:
+    name: ['php', 'php-fpm', 'php-xml', 'php-mbstring', 'php-gd', 'php-mcrypt', 'php-mysql', 'php-devel']
+    state: latest
+
+- name: transfer indexphp.j2 to remote machine.
+  template:
+    src: indexphp.j2
+    dest: /usr/share/nginx/html/index.php
+  notify:
+    - start php-fpm service

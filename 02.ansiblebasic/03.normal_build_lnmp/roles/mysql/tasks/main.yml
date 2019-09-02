@@ -1,0 +1,35 @@
+---
+- name: transfer mysql.repo to remote machine.
+  template:
+    src: mysql.repo
+    dest: /etc/yum.repos.d/mysql.repo
+
+- name: install mysql.
+  yum:
+    name: ['MySQL-python', 'mysql-community-server']
+    state: latest
+
+- name: transfer chp's script to remote machine.
+  template:
+    src: chp.j2
+    dest: /opt/chp.sh
+
+- name: execute chp.sh.
+  shell: 'bash /opt/chp.sh'
+
+- name: create grant user.
+  mysql_user:
+    login_user: root
+    login_password: "{{ mysql_password }}"
+    name: "{{ mysql_username }}"
+    password: "{{ mysql_grant_password }}"
+    host: "{{ mysql_grant_host }}"
+    priv: '*.*:ALL,GRANT'
+    state: present
+
+- name: create database.
+  mysql_db:
+    login_user: root
+    login_password: "{{ mysql_password }}"
+    name: "{{ mysql_database }}"
+    state: present     
