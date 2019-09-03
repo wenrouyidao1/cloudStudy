@@ -14,7 +14,7 @@
         src: ./lnmp.repo
         dest: /etc/yum.repos.d/lnmp.repo
 
-    - name: install softwore.
+    - name: install software.
       yum:
         name: ['nginx', 'mysql-community-server', 'php', 'php-fpm', 'php-mysql', 'php-devel', 'php-mbstring', 'php-mcrypt', 'php-gd', 'php-xml']
         state: latest
