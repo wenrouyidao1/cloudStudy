@@ -1,0 +1,49 @@
+---
+- hosts: webserver
+  remote_user: root
+  vars:
+    nginx_port: "80"
+    nginx_name: "www.qfcloud.com"
+    mysql_password: "(Harper..0903)"
+    mysql_username: "Harper"
+    mysql_database: "sys"
+
+  tasks:
+    - name: transfer lnmp.repo to remote.
+      template:
+        src: ./lnmp.repo
+        dest: /etc/yum.repos.d/lnmp.repo
+
+    - name: install softwore.
+      yum:
+        name: ['nginx', 'mysql-community-server', 'php', 'php-fpm', 'php-mysql', 'php-devel', 'php-mbstring', 'php-mcrypt', 'php-gd', 'php-xml']
+        state: latest
+
+    - name: configue nginx conf.
+      template:
+        src: ./nginxconf.j2
+        dest: /etc/nginx/conf.d/default.conf
+      notify:
+        - started nginx service.
+
+    - name: configue php conf.
+      template:
+        src: ./indexphp.j2
+        dest: /usr/share/nginx/html/index.php
+      notify:
+        - started php-fpm service.
+
+    - name: transfer chMysqlPassword.j2 to remote of change password.
+      template:
+        src: ./chMysqlPassword.j2
+        dest: /opt/chMysqlPassword.sh
+
+    - name: execute mysqlPassword.sh.
+      shell: 'bash /opt/chMysqlPassword.sh'
+
+  handlers:
+    - name: started nginx service.
+      service: name=nginx state=started enabled=true
+
+    - name: started php-fpm service.
+      service: name=php-fpm state=started enabled=true
