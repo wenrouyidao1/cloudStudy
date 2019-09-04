@@ -8,13 +8,13 @@
 Date=$(date +%Y%m%d%H%M%S)
 Hostname=$(hostname)
 
-if ! which vmstat &>/dev/null; then
+if [ ! which vmstat &>/dev/null ]; then
         yum -y install procps-ng &>/dev/null
         if [ $? -eq 0 ];then
                 echo "vmstat already installed"
         fi
 fi
-if ! which bc &>/dev/null; then
+if [ ! which bc &>/dev/null ]; then
         yum -y install bc &>/dev/null
         if [ $? -eq 0 ];then
                 echo "bc already installed"
