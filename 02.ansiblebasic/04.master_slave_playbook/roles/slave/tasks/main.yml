@@ -1,0 +1,44 @@
+---
+- name: transfer mysql.repo to remote machine.
+  template:
+    src: mysql.repo
+    dest: /etc/yum.repos.d/mysql.repo
+
+- name: install mysql-community-server.
+  yum:
+    name: ['MySQL-python', 'mysql-community-server']
+    state: latest
+
+- name: transfer my.cnf to remote machine.
+  template:
+    src: mycnf.j2
+    dest: /etc/my.cnf
+
+- name: transfer shell script to remote machine.
+  template:
+    src: chp.j2
+    dest: /opt/chp.sh
+
+- name: execute chp.sh change password.
+  shell: 'bash /opt/chp.sh'
+
+- name: Get master Status
+  mysql_replication:
+    login_host: "{{ mysql_master_host }}"
+    login_user: "{{ mysql_grant_user }}"
+    login_password: "{{ mysql_grant_password }}"
+    mode: getmaster
+  register: master
+
+- name: configue replication on slave.
+  mysql_replication:
+    mode: changemaster
+    master_host: "{{ mysql_master_host }}"
+    master_user: "{{ mysql_grant_user }}"
+    master_password: "{{ mysql_grant_password }}"
+    master_log_file: "{{ master.File }}"
+    master_log_pos: "{{ master.Position }}"
+
+- name: start slave.
+  mysql_replication:
+    mode: startslave

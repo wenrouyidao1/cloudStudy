@@ -1,0 +1,6 @@
+---
+mysql_password: (Harper..0905)
+mysql_grant_user: Harper
+grant_slave_host: 192.168.43.102
+mysql_master_host: 192.168.43.101
+mysql_grant_password: (Harper..0905)

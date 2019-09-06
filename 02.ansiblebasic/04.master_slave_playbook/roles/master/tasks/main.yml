@@ -1,0 +1,33 @@
+---
+- name: transfer mysql.repo to remote machine.
+  template:
+    src: mysql.repo
+    dest: /etc/yum.repos.d/mysql.repo
+
+- name: install mysql-community-server.
+  yum:
+    name: ['MySQL-python', 'mysql-community-server']
+    state: latest
+
+- name: transfer my.cnf to remote machine.
+  template:
+    src: mycnf.j2
+    dest: /etc/my.cnf
+
+- name: transfer shell script to remote machine.
+  template:
+    src: chp.j2
+    dest: /opt/chp.sh
+
+- name: execute script.
+  shell: 'bash /opt/chp.sh'
+
+- name: grant replication slave.
+  mysql_user:
+    login_user: root
+    login_password: "{{ mysql_password }}"
+    name: "{{ mysql_grant_user }}"
+    host: "{{ grant_slave_host }}"
+    password: "{{ mysql_grant_password }}"
+    priv: '*.*:REPLICATION CLIENT'
+    state: present
