@@ -1,0 +1,21 @@
+1. 源码安装mysql
+   推荐快速源码部署mysql(压缩包， 再执行脚本)
+
+2. 进入mysql创建数据库
+
+3. 授权：grant all privileges on project.* to 'Harper'@'192.168.43.%' identified by '(Harper..0906)';
+   index.php即可连接数据库
+
+4. 若要创建woredpress博客
+   先再php所在文件服务器去wordpress官网下载压缩包
+
+5. 解压完后进入目录
+
+6. 将wp-config-sample.php改名为wp-config.php
+
+7. 在php文件服务器上编辑wp-config.php
+
+8. 修改完wp-config.php后，清空网站主目录下的文件：rm -rf /usr/local/nginx/project/pycloud/*
+
+9. 将wordpress目录下所有文件拷贝到网站主目录下：cp -rf ~/wordpress/* /usr/local/nginx/project/pycloud/
+   浏览器即可登录博客

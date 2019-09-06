@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#
+#
+
+case $1 in
+  stop)
+    /usr/local/nginx/sbin/nginx -s quit
+    ;;
+  start)
+    /usr/local/nginx/sbin/nginx
+    ;;
+  reload)
+    /usr/local/nginx/sbin/nginx -s reload
+    ;;
+  -t)
+    /usr/local/nginx/sbin/nginx -t
+    ;;
+  *)
+    echo "[ERROR] please input (stop|start|reload|-t)"
+esac

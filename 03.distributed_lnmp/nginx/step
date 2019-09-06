@@ -1,0 +1,13 @@
+1. 下载nginx源码包
+
+2. 创建nginx用户：useradd -s /sbin/nologin nginx
+
+3. 设置nginx管理命令：/usr/bin/nginxctl
+
+4. 设置nginx主配置文件：conf/nginx.conf
+
+5. 设置nginx虚拟主机配置文件：conf.d/pycloud.com.conf
+   创建好虚拟主机中access_log文件存放目录
+   创建好网站主目录/usr/local/nginx/project/pycloud
+
+6. 启动nginx：nginxctl start

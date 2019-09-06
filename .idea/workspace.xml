@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8736dc9f-e35b-47dc-a422-f4e2faa64161" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/03.distributed_lnmp/mysql/step" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.distributed_lnmp/mysql/wp-config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.distributed_lnmp/nginx/conf.d/pycloud.com.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.distributed_lnmp/nginx/conf/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.distributed_lnmp/nginx/nginxctl_script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.distributed_lnmp/nginx/step" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.distributed_lnmp/php/exports" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.distributed_lnmp/php/fstab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.distributed_lnmp/php/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.distributed_lnmp/php/php-fpm.d/www.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03.distributed_lnmp/php/step" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/lib/getLog/shell_getMessage.sh" beforeDir="false" afterPath="$PROJECT_DIR$/project/lib/getLog/shell_getMessage.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +38,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/lib/getLog/shell_getMessage.sh">
+        <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/php/php-fpm.d/www.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -55,15 +65,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01.pythonbasic/04.excel_opera.py" />
-        <option value="$PROJECT_DIR$/01.pythonbasic/cnf/logging.conf" />
-        <option value="$PROJECT_DIR$/01.pythonbasic/02.mysql_remoteLink.py" />
-        <option value="$PROJECT_DIR$/01.pythonbasic/07.from_mysql_to_xlsx.py" />
-        <option value="$PROJECT_DIR$/09.random_code.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/10.psutil_system_info.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/11.paramiko_opera.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/05.redis_sentinel_monitor.py" />
-        <option value="$PROJECT_DIR$/01.pythonbasic/02.pymysql_mysql_opera.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/06.redis_clear_cache.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/01.getCount_ip.py" />
         <option value="$PROJECT_DIR$/01.pythonbasic/09.random_code.py" />
@@ -100,6 +104,18 @@
         <option value="$PROJECT_DIR$/02.ansiblebasic/02.alone_build_lnmp/chMysqlPassword.j2" />
         <option value="$PROJECT_DIR$/02.ansiblebasic/02.alone_build_lnmp/lnmp.yaml" />
         <option value="$PROJECT_DIR$/project/lib/getLog/shell_getMessage.sh" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/02.pymysql_mysql_opera.py" />
+        <option value="$PROJECT_DIR$/03.distributed_lnmp/nginx/conf/nginx.conf" />
+        <option value="$PROJECT_DIR$/03.distributed_lnmp/nginx/conf.d/pycloud.com.conf" />
+        <option value="$PROJECT_DIR$/03.distributed_lnmp/nginx/nginxctl_script" />
+        <option value="$PROJECT_DIR$/03.distributed_lnmp/nginx/step" />
+        <option value="$PROJECT_DIR$/03.distributed_lnmp/php/exports" />
+        <option value="$PROJECT_DIR$/03.distributed_lnmp/php/fstab" />
+        <option value="$PROJECT_DIR$/03.distributed_lnmp/php/step" />
+        <option value="$PROJECT_DIR$/03.distributed_lnmp/php/index.php" />
+        <option value="$PROJECT_DIR$/03.distributed_lnmp/mysql/wp-config.php" />
+        <option value="$PROJECT_DIR$/03.distributed_lnmp/mysql/step" />
+        <option value="$PROJECT_DIR$/03.distributed_lnmp/php/php-fpm.d/www.conf" />
       </list>
     </option>
   </component>
@@ -127,20 +143,20 @@
             <path>
               <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="03.distributed_lnmp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="03.distributed_lnmp" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="getLog" type="462c0819:PsiDirectoryNode" />
+              <item name="03.distributed_lnmp" type="462c0819:PsiDirectoryNode" />
+              <item name="php" type="462c0819:PsiDirectoryNode" />
+              <item name="php-fpm.d" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,18 +181,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git\own\cloudStudy\02.ansiblebasic\01.host_authentication" />
+      <recent name="E:\Git\own\cloudStudy\01.pythonbasic\txt_file" />
+      <recent name="E:\Git\own\cloudStudy\01.pythonbasic\excel_file" />
+      <recent name="E:\Git\own\cloudStudy\01.pythonbasic" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Git\own\cloudStudy" />
       <recent name="E:\Git\own\cloudStudy\project\lib\cnf" />
       <recent name="E:\Git\own\cloudStudy\project\lib\logAnalysis" />
       <recent name="E:\Git\own\cloudStudy\01.pythonbasic\cnf" />
       <recent name="E:\Git\own\cloudStudy\01.pythonbasic\grade_file" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Git\own\cloudStudy\02.ansiblebasic\01.host_authentication" />
-      <recent name="E:\Git\own\cloudStudy\01.pythonbasic\txt_file" />
-      <recent name="E:\Git\own\cloudStudy\01.pythonbasic\excel_file" />
-      <recent name="E:\Git\own\cloudStudy\01.pythonbasic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -340,12 +356,14 @@
       <workItem from="1567477955535" duration="3263000" />
       <workItem from="1567503320510" duration="1267000" />
       <workItem from="1567517452962" duration="270000" />
-      <workItem from="1567559323547" duration="6701000" />
+      <workItem from="1567559323547" duration="7985000" />
+      <workItem from="1567588099786" duration="1420000" />
+      <workItem from="1567767103393" duration="3099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108652000" />
+    <option name="totallyTimeSpent" value="114455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -360,7 +378,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17021276" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15729484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -403,44 +421,6 @@
     <SUITE FILE_PATH="coverage/cloudStudy$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1567066567673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logAnalysis" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/log_file/systemInfo.log" />
-    <entry file="file://$PROJECT_DIR$/project/lib/getLog/execute_shellScripts.py" />
-    <entry file="file://$PROJECT_DIR$/project/lib/getLog/shell_scripts.py" />
-    <entry file="file://$PROJECT_DIR$/project/lib/getLog/cron_shellScripts.py" />
-    <entry file="file://$PROJECT_DIR$/gets/deployenv.sh" />
-    <entry file="file://$PROJECT_DIR$/project/lib/getLog/update_cron.py" />
-    <entry file="file://$PROJECT_DIR$/project/lib/getLog/getLogfile.py" />
-    <entry file="file://$PROJECT_DIR$/gets/monitor.sh" />
-    <entry file="file://$PROJECT_DIR$/gets/opera.py" />
-    <entry file="file://$PROJECT_DIR$/analysis/cnf/logging.conf" />
-    <entry file="file://$PROJECT_DIR$/project/lib/logAnalysis/record_log.py" />
-    <entry file="file://$PROJECT_DIR$/project/lib/getLog/monitor.log" />
-    <entry file="file://$PROJECT_DIR$/analysis/filters.py" />
-    <entry file="file://$PROJECT_DIR$/project/lib/logAnalysis/logfileName.log" />
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/log_file/logfileName.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/log_file/access_log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/12.yagmail_sendMessage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/11.paramiko_opera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/10.psutil_system_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -462,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/07.from_mysql_to_xlsx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/lib/logFile/monitor.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -483,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/02.pymysql_mysql_opera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/logAnalysis/main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -498,13 +464,6 @@
           <folding>
             <element signature="e#1#35#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/01.getCount_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -529,16 +488,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pymonitor/.idea/vcs.xml" />
-    <entry file="file://$PROJECT_DIR$/logAnalysis/lib/log_analysis/deal_logFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="e#1#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pymonitor/monitor_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -577,30 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/lib/getLog/cron_shellScripts.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/lib/getLog/get_infor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="51" column="99" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding>
-            <element signature="e#1#33#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,20 +585,186 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../download/getMessage/ServerMonitor/gets/opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/cron_shellScripts.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/shell_getMessage.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/lib/getLog/get_infor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="51" column="99" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/01.getCount_ip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1060">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logAnalysis/lib/log_analysis/deal_logFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#1#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/02.pymysql_mysql_opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/07.from_mysql_to_xlsx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/03.redis_opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/05.redis_sentinel_monitor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="14" column="84" lean-forward="true" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+          <folding>
+            <element signature="e#1#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.ansiblebasic/03.normal_build_lnmp/site.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/lib/logAnalysis/deal_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1647">
-          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        <state relative-caret-position="77">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
           <folding>
             <element signature="e#1#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/lib/getLog/shell_getMessage.sh">
+    <entry file="file://$PROJECT_DIR$/02.ansiblebasic/03.normal_build_lnmp/hosts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.ansiblebasic/03.normal_build_lnmp/group_vars/all">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.ansiblebasic/03.normal_build_lnmp/roles/mysql/handlers/main.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/nginx/nginxctl_script">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="380">
+          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/php/fstab">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/php/exports">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/php/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/php/step">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/mysql/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/mysql/step">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/nginx/step">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/nginx/conf/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/nginx/conf.d/pycloud.com.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/php/php-fpm.d/www.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

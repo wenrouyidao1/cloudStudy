@@ -1,0 +1,22 @@
+1. 安装php最新版本：rimi官网
+
+2. 创建和nginx服务器上同样的用户：名字、uid、gid都一样
+
+3. 创建和nginx服务器上同样的网站主目录：mkdir -p /usr/local/nginx/project/pycloud
+
+4. 修改php-fpm配置文件
+   修改完启动php-fpm
+
+5. 下载nfs网络文件系统：nginx和php服务器都要安装 (yum -y install nfs-utils)
+
+6. 本机(php所在文件服务器) 编辑/etc/exports
+   目的：向网段开放挂载目录
+   编辑完启动nfs：systemctl start nfs
+
+7. nginx所在服务器需编辑/etc/fatab
+   目的：开机自动挂载网站主目录
+   编辑完：mount -a 加载下fstab
+   加载完启动nfs
+
+8. 向网站主目录下添加测试页：index.php
+   浏览器即可访问

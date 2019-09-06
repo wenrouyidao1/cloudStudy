@@ -1,0 +1,11 @@
+# /etc/fstab
+# Created by anaconda on Mon Sep  2 19:39:40 2019
+#
+# Accessible filesystems, by reference, are maintained under '/dev/disk'
+# See man pages fstab(5), findfs(8), mount(8) and/or blkid(8) for more info
+#
+/dev/mapper/centos-root /                       xfs     defaults        0 0
+UUID=0f211692-8761-420d-9ef8-5104311053ed /boot                   xfs     defaults        0 0
+/dev/mapper/centos-swap swap                    swap    defaults        0 0
+
+192.168.43.101:/usr/local/nginx/project/pycloud     /usr/local/nginx/project/pycloud nfs defaults 0 0

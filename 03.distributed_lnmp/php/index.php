@@ -1,0 +1,1 @@
+去php.net官网搜索mysqli_connect下载示例
