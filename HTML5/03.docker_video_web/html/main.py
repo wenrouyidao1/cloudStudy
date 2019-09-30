@@ -1,3 +1,4 @@
+#coding:utf-8
 import time
 import os
 
@@ -31,8 +32,8 @@ video_line = """
         </div>
 """
 
-index_tem = open("template/indexModule.html", encoding='utf8').read()
-detail_tem = open("template/detail.html", encoding='utf8').read()
+index_tem = open("indexModule.html", encoding='utf8').read()
+detail_tem = open("detail.html", encoding='utf8').read()
 
 
 def index(path="video"):

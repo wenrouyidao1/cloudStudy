@@ -1,0 +1,2 @@
+1.docker build -t website_video:0930 .
+2.docker run -d --name video -p 8808:80 -v /root/video:/usr/share/nginx/html/video website_video:0930
