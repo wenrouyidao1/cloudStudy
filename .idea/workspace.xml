@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8736dc9f-e35b-47dc-a422-f4e2faa64161" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04.system_tuning/01.base.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.pythonbasic/15.continueIP/01.oneShellFile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/01.pythonbasic/15.continueIP/01.oneShellFile.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/shellFile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/shellFile.sh" afterDir="false" />
-    </list>
+    <list default="true" id="8736dc9f-e35b-47dc-a422-f4e2faa64161" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +23,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/shellFile.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,20 +120,7 @@
             <path>
               <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="01.pythonbasic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="01.pythonbasic" type="462c0819:PsiDirectoryNode" />
-              <item name="15.continueIP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="01.pythonbasic" type="462c0819:PsiDirectoryNode" />
-              <item name="15.continueIP" type="462c0819:PsiDirectoryNode" />
-              <item name="02.Shell+python" type="462c0819:PsiDirectoryNode" />
+              <item name="04.system_tuning" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -358,12 +330,12 @@
       <workItem from="1570537515806" duration="55000" />
       <workItem from="1570538447965" duration="39000" />
       <workItem from="1570581290799" duration="617000" />
-      <workItem from="1570590840592" duration="214000" />
+      <workItem from="1570590840592" duration="462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132837000" />
+    <option name="totallyTimeSpent" value="133085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,8 +347,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17705168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -744,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04.system_tuning/01.base.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01.pythonbasic/15.continueIP/01.oneShellFile.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -769,6 +733,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.system_tuning/01.base.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
