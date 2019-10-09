@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8736dc9f-e35b-47dc-a422-f4e2faa64161" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/HTML5/03.docker_video_web/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML5/03.docker_video_web/html/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML5/03.docker_video_web/html/indexModule.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML5/03.docker_video_web/html/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML5/03.docker_video_web/nginx.repo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML5/03.docker_video_web/step" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.pythonbasic/14.maopao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.pythonbasic/15.continueIP/01.oneShellFile.sh.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/pythonFile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/shellFile.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML5/02.video_website/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/HTML5/02.video_website/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +29,35 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/shellFile.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01.pythonbasic/15.continueIP/01.oneShellFile.sh.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/pythonFile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,12 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/lib/getLog/execute_shellScripts.py" />
-        <option value="$PROJECT_DIR$/project/lib/logAnalysis/systemInfo.log" />
-        <option value="$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py" />
-        <option value="$PROJECT_DIR$/project/lib/getLog/shell_scripts.py" />
-        <option value="$PROJECT_DIR$/project/lib/getLog/cron_shellScripts.py" />
-        <option value="$PROJECT_DIR$/gets/deployenv.sh" />
         <option value="$PROJECT_DIR$/project/lib/getLog/update_cron.py" />
         <option value="$PROJECT_DIR$/project/lib/getLog/cron_shellScripts.sh" />
         <option value="$PROJECT_DIR$/project/lib/getLog/get_infor.py" />
@@ -102,6 +121,12 @@
         <option value="$PROJECT_DIR$/HTML5/03.docker_video_web/nginx.repo" />
         <option value="$PROJECT_DIR$/HTML5/03.docker_video_web/html/main.py" />
         <option value="$PROJECT_DIR$/HTML5/03.docker_video_web/step" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/14.maopao.py" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/shellFile.sh.py" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/pythonFile.py" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/15.continueIP/01.oneShellFile.sh.py" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/15.continueIP/01.oneShellFile.sh.sh" />
+        <option value="$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/shellFile.sh" />
       </list>
     </option>
   </component>
@@ -119,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,18 +152,35 @@
               <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="01.pythonbasic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="01.pythonbasic" type="462c0819:PsiDirectoryNode" />
+              <item name="15.continueIP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloudStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloudStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="01.pythonbasic" type="462c0819:PsiDirectoryNode" />
+              <item name="15.continueIP" type="462c0819:PsiDirectoryNode" />
+              <item name="02.Shell+python" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="E:/Pycharm/code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -149,18 +192,18 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Git\own\cloudStudy\02.ansiblebasic\01.host_authentication" />
-      <recent name="E:\Git\own\cloudStudy\01.pythonbasic\txt_file" />
-      <recent name="E:\Git\own\cloudStudy\01.pythonbasic\excel_file" />
-      <recent name="E:\Git\own\cloudStudy\01.pythonbasic" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Git\own\cloudStudy\HTML5\03.docker_video_web\html" />
       <recent name="E:\Git\own\cloudStudy\Docker\01.flask_test" />
       <recent name="E:\Git\own\cloudStudy\Flask" />
       <recent name="E:\Git\own\cloudStudy\HTML5\02.video_website" />
       <recent name="E:\Git\own\cloudStudy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git\own\cloudStudy\01.pythonbasic" />
+      <recent name="E:\Git\own\cloudStudy\02.ansiblebasic\01.host_authentication" />
+      <recent name="E:\Git\own\cloudStudy\01.pythonbasic\txt_file" />
+      <recent name="E:\Git\own\cloudStudy\01.pythonbasic\excel_file" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,7 +218,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.14.maopao">
+    <configuration name="14.maopao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cloudStudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01.pythonbasic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01.pythonbasic/14.maopao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="deal_logFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="cloudStudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,28 +255,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logAnalysis/lib/log_analysis/deal_logFile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="get_logFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="cloudStudy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logAnalysis/lib/getLog" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logAnalysis/lib/getLog/get_logFile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,11 +331,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.14.maopao" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.deal_logFile" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.get_logFile" />
       </list>
     </recent_temporary>
   </component>
@@ -330,12 +373,15 @@
       <workItem from="1567819430848" duration="86000" />
       <workItem from="1567819544999" duration="13979000" />
       <workItem from="1569748953131" duration="2031000" />
-      <workItem from="1569813538303" duration="1244000" />
+      <workItem from="1569813538303" duration="1302000" />
+      <workItem from="1570537515806" duration="55000" />
+      <workItem from="1570538447965" duration="39000" />
+      <workItem from="1570581290799" duration="485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131854000" />
+    <option name="totallyTimeSpent" value="132491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,13 +394,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16489361" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17401215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.74333334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5316667" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.395" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -378,6 +425,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cloudStudy$main.coverage" NAME="main Coverage Results" MODIFIED="1567061910105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project" />
+    <SUITE FILE_PATH="coverage/cloudStudy$14_maopao.coverage" NAME="14.maopao Coverage Results" MODIFIED="1570581426367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.pythonbasic" />
     <SUITE FILE_PATH="coverage/cloudStudy$05_redis_sentinel_monitor.coverage" NAME="05.redis_sentinel_monitor Coverage Results" MODIFIED="1566560002161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.pythonbasic" />
     <SUITE FILE_PATH="coverage/cloudStudy$08_logging_opera.coverage" NAME="08.logging_opera Coverage Results" MODIFIED="1566566038523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.pythonbasic" />
     <SUITE FILE_PATH="coverage/cloudStudy$01_getCount_ip.coverage" NAME="01.getCount_ip Coverage Results" MODIFIED="1566541786017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01.pythonbasic" />
@@ -392,48 +440,6 @@
     <SUITE FILE_PATH="coverage/cloudStudy$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1567066567673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logAnalysis" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/nginx/conf.d/pycloud.com.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/php/php-fpm.d/www.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/php/exports">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/php/fstab">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/php/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/php/step">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03.distributed_lnmp/mysql/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -445,13 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01.pythonbasic/11.paramiko_opera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="75" column="78" lean-forward="true" selection-start-line="75" selection-start-column="78" selection-end-line="75" selection-end-column="78" />
         </state>
       </provider>
     </entry>
@@ -743,6 +742,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/11.paramiko_opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="82" column="11" selection-start-line="82" selection-start-column="11" selection-end-line="82" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.ansiblebasic/01.host_authentication/01.host_authentication.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/08.logging_opera.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/14.maopao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/pythonFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/15.continueIP/01.oneShellFile.sh.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.pythonbasic/15.continueIP/02.Shell+python/shellFile.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
