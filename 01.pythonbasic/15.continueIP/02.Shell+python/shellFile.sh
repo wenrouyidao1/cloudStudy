@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 
 netip="10.36.145"
 for hostip in $(seq 2 254); do

@@ -1,4 +1,4 @@
-#/usr/bin/env bash
+#!/usr/bin/env bash
 # 缺点：一个一个ping主机，不能放在后台，慢
 
 #循环ping主机，ping通则写入online文件，ping失败则跳出循环，进入下一次循环
